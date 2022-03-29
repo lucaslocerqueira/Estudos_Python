@@ -70,4 +70,5 @@ nome_completo = input("Digite seu nome completo: ")
 nome = nome_completo.split(" ")[0]
 sobrenome = nome_completo.split(" ")[1:]  # -> ["Lima"]
 print(f"Nome: {nome}\nSobrenome: {sobrenome}")
-print(f"Nome: {nome}\nSobrenome: {' '.join(sobrenome)}")
+# print(f"Nome: {nome}\nSobrenome: {' '.join(sobrenome)}")
+print("Vou commitar")
